@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Tabuada</h1>
+</header>
+<section>
+    <p id="alerts"></p>
+    <div>
+        <p>
+            <label for="nmro">Numero: </label>
+            <input type="number" name="nmro" id="nmro">
+        </p>
+    </div>
+    <div>
+        <select name="result" id="result" multiple>
+            <option value="">Digite um numero acima</option>
+        </select>
+        <p><button onclick="tabuada()">Gerar Tabuada</button></p>
+    </div>
+</section>
+<footer>
+    <p>&copy; Joao Pedro Alves</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

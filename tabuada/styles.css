@@ -1,0 +1,48 @@
+body {
+    background: rgb(90, 142, 255);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 50%;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.493);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+
+}
+
+
+input{
+    width: 38%;
+}
+
+select{
+    width: 50%;
+    height: 250px;
+}
+
+button{
+    width: 100%;
+    padding: 5px 35px;
+    background-color: snow;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: rgb(90, 142, 255);
+    color: snow;
+}
+
